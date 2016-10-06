@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<title>Layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Dosis">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" href="/website.css">
+
+<style>
+body {font-family: "Dosis", sans-serif}
+
+.w3-headerfont {
+  font-family: 'Lobster', cursive;;
+}
+	
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+
+ <ul class="w3-navbar w3-center w3-light-grey">
+  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+    <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </li>
+  <li><a href="http://storm.usc.edu/~amalamud/iml300/index.html" class="w3-hover-none w3-hover-text-grey w3-padding-large">Home</a></li>
+<li class="w3-hide-small"><a href="http://storm.usc.edu/~amalamud/iml300/about.html" class="w3-padding-large">About</a></li>
+  <li class="w3-hide-small"><a href="http://storm.usc.edu/~amalamud/iml300/links.html" class="w3-padding-large">Links</a></li>
+    <li class="w3-hide-small"><a href="http://storm.usc.edu/~amalamud/iml300/assignments/index.html" class="w3-padding-large">Assignments</a>
+	 </li>
+    </div>
+  
+  <li class="w3-hide-small w3-right"><a href="javascript:void(0)" class="w3-padding-large w3-hover-red"><i class="fa fa-search"></i></a></li>
+</ul>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Main Text -->
+  <div class="w3-container w3-content w3-center w3-padding-64 w3 left" style="max-width:800px" id="band">
+  
+	      
+	          <h3>Website Critique: Layout </h3>  
+ 
+           
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    <!--  Good Layout Example -->
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    
+
+       <h2 class="w3-headerfont">Good Layout</h2>
+	   
+	  
+        <a href="http://heydays.no/">
+            <img src="./images/goodlayout.jpg" alt="good layout">
+        </a>
+        <p>
+            I chose this as an example of website that features a good layout (in line with our lecture.) The website is  structured off a grid, is responsive, differentiates based on page and project. I think that the strategies it employs such as changing project images upon rollover keeps the website engaging yet minimal. I also think that text was integrated well, which is incredibly important not only visually but in regards to relaying information in a layout.
+        </p>
+    
+
+    
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    <!--  Bad Layout Example -->
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    
+    
+            <h2 class="w3-headerfont">Bad Layout</h2>  
+        <a href="http://www.club1volleyball.com/">
+            <img src="./images/badlayout.jpg" alt="bad layout">
+        </a>
+        <p>
+         I found this to be an example of a bad layout for a number of reasons. Though it does follow a grid within its layout, this grid is very static— the website is not responsive, and something about its symmetry and proportional sizing doesn’t seem to work exceptionally well.  I think that the breakdown of information within the grid, such as the multiple navigation bars (especially after exploring had been placed in them, and the content of those pages) is visually confusing. The page is text/information dense, but this information could all be relayed in a similar grid structure much more succinctly (such as how margins, alignment, and other aspects have been created.)
+        </p>
+	  </p>
+	</div>
+  </div>
+
+  
+
+
+
+  
+<!-- Menu -->
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
